@@ -1,8 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-	cout << "Hello gIT" << endl;
+	string str = " and world";
+	cout << "Hello gIT" + str << endl;
 	return 0;
 }
